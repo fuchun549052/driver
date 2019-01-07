@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">盈运宝</string>
+    <string name="phone">手机号</string>
+    <string name="phone_name">手机号/用户名</string>
+    <string name="pass">密码</string>
+    <string name="code">验证码</string>
+    <string name="invite">邀请码</string>
+    <string name="new_pass">新密码(最少8位，数字+字母)</string>
+    <string name="get_code">获取验证码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="pass_login">密码登录</string>
+    <string name="weixin_login">微信登录</string>
+    <string name="to_register">没有账号，快速注册</string>
+    <string name="forget_pass">忘记密码?</string>
+    <string name="to_login">已有账号，快速登录</string>
+    <string name="other_register">其他社交账号快速登录</string>
+    <string name="login_hint_1">温馨提示：未注册盈运宝账号的手机号，登录时将</string>
+    <string name="login_hint_2">自</string>
+    <string name="login_hint_3">动</string>
+    <string name="login_hint_4">注</string>
+    <string name="login_hint_5">册</string>
+    <string name="login_hint_6">，</string>
+    <string name="login_hint_7">且</string>
+    <string name="login_hint_8">代表您已同意</string>
+    <string name="agreement">《用户服务协议》</string>
+    <string name="my">我的</string>
+    <string name="shop">商城</string>
+    <string name="waybill">运单</string>
+    <string name="main">首页</string>
+    <string name="my_line">我的路线</string>
+    <string name="my_money">我的钱包</string>
+    <string name="waybill_order">货运订单</string>
+    <string name="shop_point">积分商城</string>
+    <string name="more_setting">更多设置</string>
+</resources>

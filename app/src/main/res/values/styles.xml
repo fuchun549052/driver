@@ -1,0 +1,50 @@
+<resources>
+
+    <style name="AppTheme" parent="QMUI.Compat">
+        <item name="QMUITabSegmentStyle">@style/AppTabSegment</item>
+    </style>
+    <style name="AppTabSegment">
+        <item name="qmui_tab_has_indicator">false</item>
+        <item name="qmui_tab_indicator_height">0dp</item>
+        <item name="qmui_tab_indicator_top">false</item>
+        <item name="android:textSize">@dimen/x38</item>
+        <item name="qmui_tab_icon_position">top</item>
+        <item name="qmui_tab_mode">fixed</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/alpha</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="FullscreenActionBarStyle" parent="AppTheme">
+        <item name="android:background">@color/color_66000000</item>
+    </style>
+
+    <style name="alpha" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/alpha_donot_change</item>
+        <item name="android:activityOpenExitAnimation">@anim/alpha_donot_change</item>
+        <item name="android:activityCloseEnterAnimation">@anim/alpha_donot_change</item>
+        <item name="android:activityCloseExitAnimation">@anim/alpha_donot_change</item>
+    </style>
+    <style name="test_title_69">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_333333</item>
+        <item name="android:textSize">@dimen/x69</item>
+    </style>
+    <style name="test_title_58">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_333333</item>
+        <item name="android:textSize">@dimen/x58</item>
+    </style>
+    <style name="btn_test_61">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/y169</item>
+        <item name="android:textColor">@color/color_FFFFFF</item>
+        <item name="android:textSize">@dimen/x61</item>
+    </style>
+</resources>

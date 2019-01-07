@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/fist"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_height="0dp"/>
+    <com.qmuiteam.qmui.widget.QMUIViewPager
+        android:id="@+id/qmui_vp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x2"
+        android:background="@color/color_DDDDDD"
+        />
+    <com.qmuiteam.qmui.widget.QMUITabSegment
+        android:id="@+id/qmui_tab"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y192"
+        />
+
+</LinearLayout>
